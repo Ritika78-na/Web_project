@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding:0%
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    animation:deva 3s infinite ease-in-out;
+    background-image: url(https://images.unsplash.com/photo-1505699261378-c372af38134c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGRlc2t0b3AlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww);
+    background-size: cover;
+}
+h1{
+    margin: 20px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+h1:hover{
+    transform: scale(1.2);
+    transform: rotate( 14deg);
+}
+.details{
+    color: rgb(202, 243, 37);
+    margin-left: 5%;
+    width: 100%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 3s;
+ 
+
+}
+input{
+    width: 90%;
+    margin-left: 1%;
+}
+#name{
+    height: 35px;
+    box-sizing: border-box;
+    border: solid;
+    border-radius: 10px;
+    text-align:center;
+}
+#name:hover{
+    background-color:beige;
+    color: black;
+
+}
+#email{
+    height: 35px;
+    box-sizing: border-box;
+    border: solid;
+    border-radius: 10px;
+    text-align:center;
+}
+#email:hover{
+    background-color: bisque;
+    color: black;
+}
+#message{
+   height: 140px;
+   text-align:center;
+   align-items:center;
+   box-sizing: border-box;
+    border: solid;
+    border-radius: 10px;
+}
+#message:hover{
+    background-color: rgb(170, 153, 163);
+    color: black;
+}
+@keyframes deva{
+    from{
+        color: black;
+    }
+    to{
+        color: red
+    }
+} 
+#footer{
+    height: 10%;
+    width: 90%;
+    margin: 5%;
+    padding: 2%;
+    box-sizing: border-box;
+    border: solid;
+    border-radius: 10px;
+    text-align:center;
+    align-items:center;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+    color:rgb(209, 243, 41);
+    font-size: larger;
+    font-weight: bold;
+}
+#footer:hover{
+     background-color: rgb(11, 9, 142);
+     color: white;
+}
+button{
+    text-align: right;
+    justify-content: right;
+    margin-left: 5%;
+    border-radius: 5px;
+    background-color:rgb(27, 249, 30);
+    color: rgb(11, 10, 10);
+    font-weight: bold;
+    padding:1px;
+    box-sizing: content-box;
+
+}
+button:hover{
+    background-color: red;
+    color:rgb(19, 220, 96);
+    transform: scale(1.4);
+    
+}
